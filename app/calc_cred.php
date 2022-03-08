@@ -80,7 +80,7 @@ if (empty ( $messages )) { // gdy brak błędów
 	//konwersja parametrów na int
 	$amount = intval($amt);
 	$years = intval($yrs);
-	$rate = intval($rt);
+	$rate = floatval($rt);
 	
 	$years = $years*12;
 	$rate = $rate/100;
